@@ -1,0 +1,40 @@
+.resume-page {
+    padding: 85px;
+    color: black;
+    background: white;
+    margin-top: 85px;
+    margin-bottom: 80px;
+    height: auto;
+    padding-top: 60px;
+    border-radius: 5px;
+    width: 80%;
+    padding-bottom: 60px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.description h4 {
+    text-decoration: underline;
+    color: #00B027;
+    font-weight: 700;
+}
+
+strong {
+    font-size: 17px;
+}
+
+.resume-li {
+    list-style-type: square;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.resume-list {
+    list-style-type: disc;
+}
+
+.technology {
+    color: #00B027;
+}

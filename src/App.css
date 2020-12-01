@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(181deg, #343a40, #46484ae8);
+  font-family: 'Roboto', sans-serif;
+}
+
+.navActive {
+  color: white !important;
+  background: #54729e;
+  border-radius: 3px;
+}
+
+
+
+/* for hiding scrollbar */
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+/* .wow {
+     visibility: hidden;
+   } */
+
+   #tsparticles {
+     height: 100%;
+     width: 100%;
+   }
+   .tsparticles-canvas-el {
+     position: absolute;
+   }

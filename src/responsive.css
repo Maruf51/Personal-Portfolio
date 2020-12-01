@@ -1,0 +1,237 @@
+@media(max-width:1024px){
+    .nav-link {
+        font-size: 12px !important;
+        padding: 6px 13px !important;
+    }
+
+    .navbar-brand {
+        padding: 0 ;
+    }
+
+    .nav-resume {
+        padding: 5px 15px;
+    }
+
+    .hvr-shutter-out-horizontal {
+        padding: 5px 35px;
+        font-size: 14px;
+    }
+
+    .myPhoto {
+        width: 225px;
+        height: 225px;
+    }
+
+    .home-name {
+        font-size: 25px;
+    }
+
+    .developer {
+        font-size: 17px;
+    }
+
+    .my-detail {
+        font-size: 13px;
+    }
+
+    .email {
+        font-size: 14px;
+    }
+
+    .btn-danger {
+        padding: 6px 15px !important;
+        font-size: 13px;
+    }
+
+    .fontAwesomeIcon {
+        font-size: 33px;
+        height: 33px;
+    }
+
+    .about-email {
+        font-size: 14px;
+    }
+
+    .skills-li li {
+        font-size: 14px;
+        width: 115px;
+    }
+
+    .tools-li li {
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .project h3 {
+        font-size: 23px;
+    }
+
+    .project p {
+        font-size: 13px;
+    }
+
+    .btn-outline-dark {
+        padding: 5px 20px !important;
+        margin: 0px !important;
+        font-size: 14px;
+    }
+
+    .project a {
+        margin: 0 9px;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+    }
+
+    .message-me, .contact-info {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input, textarea {
+        font-size: 13px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .btn-outline-light {
+        padding: 5px 30px !important;
+    }
+
+    .feel-free {
+        font-size: 14px;
+    }
+
+    .contact-page-detail h4 {
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:991.8px){
+    .about {
+        display: block;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .about-left {
+        width: 60%;
+        margin: auto;
+    }
+
+    .about-social {
+        padding-left: 95px;
+        margin-top: 10px !important;
+        margin-bottom: 40px;
+    }
+
+    .skill-li {
+        padding: 0;
+    }
+
+    .tools-li {
+        padding: 0;
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    .message-area {
+        display: block;
+    }
+
+    .contact-area {
+        padding-left: 0;
+    }
+
+    .nav-resume {
+        margin-top: 10px;
+    }
+}
+
+
+@media(max-width:767.8px){
+    .home {
+        width: 375px !important;
+    }
+    
+    .about-left {
+        width: 365px;
+    }
+
+    .about-social {
+        padding-left: 70px;
+    }
+
+    .skills-li {
+        padding: 0;
+    }
+
+    .projects {
+        width: 400px;
+    }
+
+    .project-parent {
+        margin-bottom: 25px !important;
+    }
+}
+
+
+@media(max-width:575.8px) {
+    .home {
+        width: 90% !important;
+    }
+
+    .myPhoto {
+        width: 200px;
+        height: 200px;
+    }
+
+    .navbar {
+        padding: .5rem 1rem;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .tools-li li {
+        margin: 7px 5px;
+        width: 130px;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .message-me {
+        font-size: 21px;
+    }
+
+    .contact-info {
+        margin-top: 45px;
+    }
+
+    .feel-free {
+        padding-top: 10px;
+    }
+}

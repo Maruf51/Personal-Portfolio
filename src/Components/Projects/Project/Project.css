@@ -1,0 +1,21 @@
+.project {
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    height: 100%;
+    text-align: center;
+    transition: .2s;
+}
+
+.project img {
+    border-radius: 5px;
+    box-shadow: 0 0 15px #a7a7a7;
+}
+
+.project a {
+    margin: 0 15px;
+}
+
+.project:hover {
+    transform: translateY(-15px);
+}

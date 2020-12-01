@@ -1,0 +1,34 @@
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    height: 29px;
+}
+
+.fullNavBar {
+    background-color: #353a40;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #353a40;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.nav-resume {
+    background: none;
+    border: 1px solid #f3c623;
+    color: #f3c623;
+    font-size: 13px;
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin: 0 15px;
+}
+
+/* .nav-resume:hover {
+    background-color: #f3c623;
+    color: white;
+} */

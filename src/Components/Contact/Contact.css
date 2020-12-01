@@ -1,0 +1,134 @@
+.contact {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+label {
+    display: inline-block;
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+input::placeholder {
+    color: lightgray;
+}
+
+textarea::placeholder {
+    color: lightgray;
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background: #545658;
+    color: white;
+    border-bottom: 1px solid #f96539;
+    outline: none;
+    padding: 5px 15px;
+    transition: .3s;
+}
+
+input:focus {
+    border-bottom: 1px solid #39f9cd;
+    color: #39f9cd;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    background: #545658;
+    color: white;
+    border-bottom: 1px solid #f96539;
+    outline: none;
+    padding: 5px 15px;
+    height: 120px;
+    transition: .3s;
+}
+textarea:focus {
+    border-bottom: 1px solid #39f9cd;
+    color: #39f9cd;
+}
+
+.name_email {
+    width: 48%;
+}
+
+.input_name {
+
+}
+
+.input_email {
+
+}
+
+.message-me {
+    margin-top: 75px;
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin-top: 75px;
+    text-decoration: underline;
+
+}
+
+.message-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-area {
+    padding-left: 80px;
+}
+
+.feel-free {
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.contact-page-detail {
+    color: white;
+    border-left: 1px solid #62c798;
+    padding: 5px 20px;
+    margin-top: 30px;
+}
+
+.contact-page-detail h4 {
+    font-size: 18px;
+    padding: 4px 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.disabledSendBtn {
+    background-color: white;
+    color: black;
+    width: 132px;
+}
+
+.disabledSendBtn:hover, .disabledSendBtn:focus, .disabledSendBtn:active {
+    color: black;
+  }
+  .disabledSendBtn:hover:before, .disabledSendBtn:focus:before, .disabledSendBtn:active:before {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  .progressBtn {
+    padding-top: 4px;
+    padding-bottom: 2.5px;
+    background: #c4c5c7;
+    border: 1px solid #c4c5c7;
+    opacity: 1 !important;
+    width: 132px !important;
+  }

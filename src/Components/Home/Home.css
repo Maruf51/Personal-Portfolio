@@ -1,0 +1,53 @@
+.home__home {
+    max-width: 640px !important;
+}
+
+.myPhoto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.my-detail {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.developer {
+    font-size: 21px;
+}
+
+.fontAwesomeIcon {
+    font-size: 42px;
+    margin: 0 15px;
+    cursor: pointer;
+    height: 42px;
+    display: flex;
+    color: white;
+    transition: .2s;
+}
+
+.fontAwesomeIcon:hover {
+    color: #dc3545;
+}
+
+.name {
+    background: -webkit-linear-gradient(45deg, #50cab3, #7ad444);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.email {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.home {
+    height: 100vh;
+}
+
+
+  :root {
+    --animate-duration: 1s;
+  }

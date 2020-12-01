@@ -1,0 +1,30 @@
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.skills {
+    text-decoration: underline;
+}
+
+.skills-li li {
+    padding: 5px 10px;
+    margin: 7px 7px;
+    border: 1px solid #7b7b7b;
+    background: #75767b;
+    border-radius: 5px;
+    text-align: center;
+    width: 135px;
+}
+
+.tools-li li {
+    width: 175px;
+    margin: 7px 13px;
+}
