@@ -1,4 +1,8 @@
 @media(max-width:1024px){
+    .home__home {
+        max-width: 600px !important;
+    }
+    
     .nav-link {
         font-size: 12px !important;
         padding: 6px 13px !important;
