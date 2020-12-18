@@ -25,7 +25,7 @@ const Home = () => {
             <p className="email mb-1 animate__animated animate__flipInY">E-mail: hossain815265@gmail.com</p>
             <div className="d-flex text-center justify-content-center pt-2 animate__animated animate__fadeInUp">
                 <a target="_blank" className="fontAwesomeIcon" href="https://github.com/Maruf51"><FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon></a>
-                <a target="_blank" href="https://drive.google.com/file/d/1x8AXNylw8dfnBpGD1InbrE_rLalYGSzE/view?usp=sharing"><button className="btn btn-danger px-4 py-2">GET RESUME</button></a>
+                <a target="_blank" href="https://drive.google.com/file/d/1Nd-CG9cRHpEV0O-QukeydpHLiWC_dHcK/view?usp=sharing"><button className="btn btn-danger px-4 py-2">GET RESUME</button></a>
                 <a target="_blank" className="fontAwesomeIcon" href="https://www.linkedin.com/in/md-maruf-hossain-3208441aa/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
             </div>
         </div>

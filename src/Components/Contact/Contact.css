@@ -98,9 +98,12 @@ textarea:focus {
 
 .contact-page-detail {
     color: white;
-    border-left: 1px solid #62c798;
+    /* border-left: 1px solid #62c798; */
     padding: 5px 20px;
     margin-top: 30px;
+    border-left: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom, #CDDC39, #3ad575);
 }
 
 .contact-page-detail h4 {

@@ -16,7 +16,7 @@ const About = () => {
                 <div>
                     <div className="mt-4 d-flex pt-2 animate__animated animate__fadeInUp about-social">
                         <a target="_blank" className="fontAwesomeIcon ml-0" href="https://github.com/Maruf51"><FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon></a>
-                        <a target="_blank" href="https://drive.google.com/file/d/1x8AXNylw8dfnBpGD1InbrE_rLalYGSzE/view?usp=sharing"><button className="btn btn-danger px-4 py-2">GET RESUME</button></a>
+                        <a target="_blank" href="https://drive.google.com/file/d/1Nd-CG9cRHpEV0O-QukeydpHLiWC_dHcK/view?usp=sharing"><button className="btn btn-danger px-4 py-2">GET RESUME</button></a>
                         <a target="_blank" className="fontAwesomeIcon" href="https://www.linkedin.com/in/md-maruf-hossain-3208441aa/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
                     </div>
                 </div>

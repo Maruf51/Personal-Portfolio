@@ -71,7 +71,7 @@ const Contact = () => {
                             <h4>+88 01993-980666</h4>
                             <h4>Satkhira, Bangladesh</h4>
                         </div>
-                        <a target="_blank" href="https://drive.google.com/file/d/1x8AXNylw8dfnBpGD1InbrE_rLalYGSzE/view?usp=sharing"><button className="btn btn-danger px-4 py-2 mt-4">DOWNLOAD RESUME</button></a>
+                        <a target="_blank" href="https://drive.google.com/file/d/1Nd-CG9cRHpEV0O-QukeydpHLiWC_dHcK/view?usp=sharing"><button className="btn btn-danger px-4 py-2 mt-4">DOWNLOAD RESUME</button></a>
                     </div>
                 </div>
             </div>

@@ -116,6 +116,22 @@
     .contact-page-detail h4 {
         font-size: 16px;
     }
+
+    .spinner-border {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 10px;
+    }
+
+    .progressBtn {
+        padding-top: 3px !important;
+        padding-bottom: 2px !important;
+        width: 107px !important;
+    }
+
+    .disabledSendBtn {
+        width: 107px;
+    }
 }
 
 
@@ -159,6 +175,10 @@
 
     .nav-resume {
         margin-top: 10px;
+    }
+
+    .achievements {
+        height: 100vh !important;
     }
 }
 

@@ -11,6 +11,7 @@ import Contact from './Components/Contact/Contact';
 import Resume from './Components/Resume/Resume';
 import './responsive.css';
 import Particles from 'react-particles-js';
+import Achievements from './Components/Achievements/Achievements';
 
 export const NavContext = createContext()
 function App() {
@@ -72,6 +73,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects></Projects>
+          </Route>
+		  <Route path="/achievements">
+            <Achievements></Achievements>
           </Route>
           <Route path="/blogs">
             <Blogs></Blogs>

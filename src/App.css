@@ -7,9 +7,14 @@ body {
   color: white !important;
   background: #54729e;
   border-radius: 3px;
+  /* background-image: linear-gradient(45deg, #41cc78, #73b13d); */
 }
 
-
+.tsparticles-canvas-el {
+  z-index: -1;
+  position: fixed !important;
+  top: 50px;
+}
 
 /* for hiding scrollbar */
 
