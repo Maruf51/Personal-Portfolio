@@ -36,18 +36,18 @@ const Contact = () => {
                     <div>
                         <form className="contact-form" onSubmit={sendEmail}>
                             <div className="name-email">
-                                <div className="name_email input_name">
-                                    <label htmlFor="name">Full Name</label>
+                                <div className="name_email_in input_name">
                                     <input type="text" name="client_name" id="name" placeholder="Your Full Name Here..." onChange={changeInput} required/>
+                                    <label htmlFor="name">Full Name</label>
                                 </div>
-                                <div className="name_email input_email">
-                                    <label htmlFor="email">Email</label>
+                                <div className="name_email_in input_email">
                                     <input type="email" name="client_mail" id="email" placeholder="Your Email Here..." onChange={changeInput} required/>
+                                    <label htmlFor="email">Email</label>
                                 </div>
                             </div>
-                            <div>
-                                <label htmlFor="message">Message</label>
+                            <div className="text_area">
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message Here..." onChange={changeInput} required></textarea>
+                                <label htmlFor="message">Message</label>
                             </div>
                             {
                                 disabled === 'enabled' ? <button type="submit" className="btn hvr-shutter-out-horizontal mt-3">SEND</button> : 
